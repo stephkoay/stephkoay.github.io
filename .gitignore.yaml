@@ -1,0 +1,28 @@
+.gitignore
+
+```plaintext
+# Ignore node_modules folder
+node_modules/
+
+# Ignore log files
+*.log
+npm-debug.log*
+
+# Ignore environment variables
+.env
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore any IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore build files (if any are generated)
+dist/
+build/
